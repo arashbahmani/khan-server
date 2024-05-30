@@ -1,13 +1,10 @@
 {
-  "homepage": "http://arashbahmani.github.io/khan-server",
   "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json -p 9000",
-    "predeploy": "npm run json-server --watch db.json -p 9000",
-    "deploy": "gh-pages -d json-server --watch db.json -p 9000"
+    "start": "json-server --watch db.json -p 9000"
   },
   "keywords": [],
   "author": "",
